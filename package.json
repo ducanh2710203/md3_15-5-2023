@@ -1,8 +1,10 @@
 {
   "dependencies": {
-    "nodemon": "^2.0.22"
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.22",
+    "qs": "^6.11.1"
   },
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon server.js"
   }
 }
