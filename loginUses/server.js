@@ -34,7 +34,7 @@ const server = http.createServer(function (req,res) {
     }
 });
 
-server.listen(8080, function () {
+server.listen(8080,'localhost' ,function () {
     console.log('server running at localhost:8080 ')
 });
 
